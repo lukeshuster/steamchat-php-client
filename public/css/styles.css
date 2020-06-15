@@ -1,0 +1,246 @@
+@import 'https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap';
+
+/* General Styling */
+html,
+body {
+    background:#1b2838;
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0;
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2vmin;
+}
+section{
+	width: 80%;
+    display: block;
+    margin: 2% auto;
+    overflow: visible;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #171a21;
+}
+
+
+
+/* Main Navigation */
+header {
+	width: 100%;
+    height: 80px;
+	line-height: 80px;
+    background-color: #171a21;
+	overflow: hidden;
+}
+.main-nav {
+    width: 90%;
+	overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-nav a {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px; 
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+	padding-right: 15px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2vmin;
+    font-size: 30px;
+}
+/* Change the color of nav button on hover */
+.main-nav a:hover {
+    background-color: #c7d5e0;
+    color: #171a21;
+}
+/* Change the color of the clicked nav button */
+.main-nav a:active {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Steam ID Login*/
+.steamIdForm {
+    text-align: center;
+    margin-top: 2%;
+}
+.steamIdForm div {
+    margin: 0.5%;
+}
+.steamIdForm #steamId {
+    border: 2px solid green;
+    padding: 1vmin;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2vmin;
+    width: 15%;
+    height: 1.5vmin;
+    border-radius: 4px;
+}
+.steamIdForm .button {
+    display: inline-block;
+    margin: auto 0;
+    width: 60%;
+    border: none;
+    background-color: #2a475e;
+    color: #66c0f4;
+    padding: 1.5vmin 2vmin;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4vmin;
+    cursor: pointer;
+    text-align: center;
+  }
+.steamIdForm .button:hover {
+    background-color: #c7d5e0;
+    color: #171a21;
+}
+.steamIdForm .button:active {
+    background-color: white;
+    color: black;
+}
+
+/*Chat page*/
+#chatForm div {
+    display: block;
+    position: relative;
+    margin: 2% auto;
+}
+
+#chatForm input {
+    display: inline-block;
+    border: 2px solid green;
+    padding: 1vmin;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2vmin;
+    width: 67%;
+    height: 4vmin;
+    border-radius: 4px;
+    position: relative;
+}
+#chatForm table {
+    font-size: 1.5vmin;
+    width: 100%;
+}
+
+#chatForm tr {
+    background-color: #2a475e;
+}
+
+#chatForm td:nth-child(1){
+    width: 10%;
+    font-size: 1.2vmin;
+}
+
+#chatForm td:nth-child(2){
+    width: 5%;
+}
+#chatForm td:nth-child(2) img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#chatForm td:nth-child(3){
+    width: 10%;
+}
+#chatForm td:nth-child(4){
+    width: 75%;
+}
+
+#chatForm button {
+    display: inline-block;
+    margin: auto 0;
+    width: 10%;
+    border: none;
+    background-color: #2a475e;
+    color: #66c0f4;
+    padding: 2vmin 2vmin;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#chatForm button:hover {
+    background-color: #c7d5e0;
+    color: #171a21;
+}
+
+/* Most Popular Game*/
+#mostPopularGame {
+    width: 60%;
+    margin: auto;
+    font-size: 2.5vmin;
+}
+
+/* List of Owned Games*/
+#searchInput {
+    display: block;
+    border: 2px solid green;
+    padding: 1vmin;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3vmin;
+    width: 95%;
+    height: 4vmin;
+    margin: 0.5% auto;
+    border-radius: 4px;
+    position: relative;
+}
+#gamesContainer ul {
+    position: absolute;
+    left: 0;
+    display:flex;
+    flex-wrap: wrap;
+    background: #2a475e;
+    list-style-type: none;
+    padding: 1%;
+}
+#gamesContainer li {
+    display:inline-block;
+    margin: 1px;
+}
+
+
+/* My Stats Page*/
+#myStats div {
+    display: block;
+    position: relative;
+    margin: 2% auto;
+}
+#myStats table {
+    font-size: 1.5vmin;
+    width: 100%;
+}
+#myStats tr {
+    background-color: #2a475e;
+}
+#myStats td {
+    padding: 2px;
+}
+
+
+/* Global Stats Page*/
+.globalStats{
+    width: 60%;
+}
+.globalStats table {
+    width: 100%;
+}
+.globalStats table .cell {
+    width: 5vmin;
+    height: 5vmin;
+    margin: 0;
+    padding: 0;
+}
